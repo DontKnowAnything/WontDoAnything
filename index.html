@@ -8,11 +8,33 @@ and open the template in the editor.
     <head>
         <title>Index</title>
         <link rel="stylesheet" href="mystyle.css" type="text/css">
+        <link rel="stylesheet" href="CSSforMobile.css" type="text/css" media="screen and (max-width: 768px)" />
+        <link rel="stylesheet" href="hidetext.css" type="text/css"/>
+
+        <!--This is from chapter 5-->
+        <link rel="stylesheet" href="hidetext.css" type="text/css"/>
+        <script type="text/javascript" src="JS/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="JS/HideShow.js"></script>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <a href="ContactUs.html">Contact Us</a>
+        <div class="span-24 top last" id="nav"> 
+            <ul>
+                <li><a href="WhatWeOffer.html">What We Offer</a></li>
+                <li><a href="Forms.html">Our Forms</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
         <div>TODO write content</div>
+        <div class="container" id="social">
+            <ul>
+                <!--Change This-->
+                <li><a href="http://www.twitter.com/MustStopUsing">Twitter</a></li>
+                <!--follow page 119-->
+            </ul>
+        </div>
     </body>
 </html>
